@@ -40,7 +40,7 @@ print(f"Your current IP address is: {ip_address}")
 
 ### Documentation
 
-For more detailed documentation, visit the NetLocator Documentation.
+For more detailed documentation, visit the NetLocator [Documentation](https://ylp1455.github.io/net-Locator-documentation/)
 
 
 ## Contributing
