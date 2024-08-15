@@ -1,1 +1,1 @@
-from netLocator import getip
+from netLocator import get_ip
