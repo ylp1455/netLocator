@@ -1,6 +1,8 @@
 import subprocess
 
-def get_ip_address():
+import subprocess
+
+def get_ip():
     try:
         
         output = subprocess.check_output("ipconfig | findstr /C:\"IPv4 Address\" /C:\"Wireless LAN adapter Wi-Fi\"", shell=True)
@@ -12,15 +14,3 @@ def get_ip_address():
     except Exception as e:
         print(f"Error occurred: {e}")
         return None
-
-
-
-
-
-# # Example usage
-# if __name__ == "__main__":
-#     ip_address = get_ip_address()
-#     if ip_address:
-#         print(f"My IP address is: {ip_address}")
-#     else:
-#         print("Unable to determine my IP address.")
